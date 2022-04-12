@@ -1,0 +1,288 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1168,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 840,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 56,
+          "minHeight": 850,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "PhoneInput1",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "defaultDialCode"
+                },
+                {
+                  "key": "dialCode"
+                }
+              ],
+              "displayName": "Phone Input",
+              "iconSVG": "/static/media/icon.ec4f5c23.svg",
+              "dialCode": "{{Input2.text}}",
+              "topRow": 32,
+              "bottomRow": 36,
+              "parentRowSpace": 10,
+              "defaultDialCode": "{{Input2.text}}",
+              "autoFocus": false,
+              "type": "PHONE_INPUT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 20.0625,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 28,
+              "dynamicBindingPathList": [
+                {
+                  "key": "defaultDialCode"
+                },
+                {
+                  "key": "dialCode"
+                }
+              ],
+              "countryCode": "",
+              "labelStyle": "",
+              "isDisabled": false,
+              "key": "uaw9rf1xe8",
+              "isRequired": false,
+              "rightColumn": 47,
+              "widgetId": "hkr4enj2rj",
+              "allowDialCodeChange": false,
+              "isVisible": true,
+              "label": "",
+              "version": 1,
+              "parentId": "0",
+              "allowFormatting": true,
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "iconAlign": "left",
+              "defaultText": ""
+            },
+            {
+              "widgetName": "Text1",
+              "borderColor": "#2E3D49",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b52.svg",
+              "topRow": 42,
+              "bottomRow": 50,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 28,
+              "dynamicBindingPathList": [
+                {
+                  "key": "text"
+                }
+              ],
+              "shouldTruncate": false,
+              "borderWidth": "1",
+              "truncateButtonColor": "#FFC13D",
+              "text": "{{PhoneInput1.countryCode}}",
+              "key": "wlfcwbctfc",
+              "rightColumn": 47,
+              "textAlign": "LEFT",
+              "widgetId": "cr4egkr3ma",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "fontSize": "PARAGRAPH"
+            },
+            {
+              "widgetName": "CurrencyInput1",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "defaultCurrencyCode"
+                },
+                {
+                  "key": "currencyCode"
+                }
+              ],
+              "displayName": "Currency Input",
+              "iconSVG": "/static/media/icon.01a1e03d.svg",
+              "topRow": 33,
+              "bottomRow": 37,
+              "defaultCurrencyCode": "{{Input1.text}}",
+              "parentRowSpace": 10,
+              "autoFocus": false,
+              "type": "CURRENCY_INPUT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "defaultCurrencyCode"
+                },
+                {
+                  "key": "currencyCode"
+                }
+              ],
+              "labelStyle": "",
+              "isDisabled": false,
+              "key": "8wcysze56b",
+              "isRequired": false,
+              "rightColumn": 20,
+              "widgetId": "9r60mcqjxm",
+              "isVisible": true,
+              "label": "",
+              "allowCurrencyChange": false,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "decimals": 0,
+              "iconAlign": "left",
+              "defaultText": "",
+              "currencyCode": "{{Input1.text}}"
+            },
+            {
+              "widgetName": "Text2",
+              "borderColor": "#2E3D49",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b52.svg",
+              "topRow": 43,
+              "bottomRow": 50,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "text"
+                }
+              ],
+              "shouldTruncate": false,
+              "borderWidth": "1",
+              "truncateButtonColor": "#FFC13D",
+              "text": "{{CurrencyInput1.countryCode}}",
+              "key": "wlfcwbctfc",
+              "rightColumn": 20,
+              "textAlign": "LEFT",
+              "widgetId": "ahezu67b0k",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "fontSize": "PARAGRAPH"
+            },
+            {
+              "widgetName": "Input1",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595.svg",
+              "topRow": 21,
+              "bottomRow": 25,
+              "parentRowSpace": 10,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "resetOnSubmit": true,
+              "leftColumn": 4,
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "du07eqj28d",
+              "isRequired": false,
+              "rightColumn": 20,
+              "widgetId": "u4lgk3n2bg",
+              "isVisible": true,
+              "label": "",
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "iconAlign": "left",
+              "defaultText": ""
+            },
+            {
+              "widgetName": "Input2",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595.svg",
+              "topRow": 21,
+              "bottomRow": 25,
+              "parentRowSpace": 10,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "resetOnSubmit": true,
+              "leftColumn": 28,
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "du07eqj28d",
+              "isRequired": false,
+              "rightColumn": 48,
+              "widgetId": "x6wdrsxvvk",
+              "isVisible": true,
+              "label": "",
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "iconAlign": "left",
+              "defaultText": ""
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "widgetNames": [
+          "CurrencyInput1",
+          "Input1",
+          "Input2",
+          "MainContainer",
+          "PhoneInput1",
+          "Text1",
+          "Text2"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "62504ad1a78fb411e4621610_62504ad1a78fb411e4621612"
+}
